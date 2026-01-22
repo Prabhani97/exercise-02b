@@ -1,0 +1,22 @@
+---
+title: "notes- exercise 02b"
+format: html
+author: Prabhani Athukorala
+---
+
+## exercise-02b Quarto 
+
+# Standard code block
+```{r}
+#| echo: false
+#| warning: false
+x <- 15
+print(x)
+log(-x)
+```
+
+# Example figure
+```{r}
+#| out-width: "90%"
+knitr::include_graphics("gift.jpg")
+```
